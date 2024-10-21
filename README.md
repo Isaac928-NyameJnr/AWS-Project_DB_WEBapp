@@ -1,8 +1,8 @@
 # AWS-Project_DB_WEBapp
 Project Title
 -Host a web application using AWS EC2 and connected with Aurora MySQL free tier.
-Project Description
 
+Project Description
 This project adheres to the principles of the AWS Well-Architected Framework.
 
 Security Principle: I restricted SSH traffic to only allow access from my specific IP address. This ensures that only my device can access the instance, protecting it from unauthorized access and safeguarding it from potential threats.
