@@ -1,6 +1,15 @@
 # AWS-Project_DB_WEBapp
-Project Overview
--Hosted a web application using AWS EC2 and Aurora MySQL.
+Project Title
+-Host a web application using AWS EC2 and connected with Aurora MySQL free tier.
+Project Description
+
+This project adheres to the principles of the AWS Well-Architected Framework.
+
+Security Principle: I restricted SSH traffic to only allow access from my specific IP address. This ensures that only my device can access the instance, protecting it from unauthorized access and safeguarding it from potential threats.
+
+Cost Optimization Principle: To minimize unnecessary costs, I selected the burstable instance class option. This choice is suitable for the project's workload, which does not require high-performance resources, thus preventing excess spending.
+
+Reliability Principle: A manual snapshot of the database was created to serve as a backup, ensuring disaster recovery and protecting against data loss.
 
 Steps to Set Up the Web Application
 -Create EC2 instance:
